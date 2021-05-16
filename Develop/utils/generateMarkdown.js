@@ -23,9 +23,9 @@ ${data.description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Credits](#credits)
 * [Contributing](#contributing)
-* [Credits](#credits)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## Installation
 
@@ -45,7 +45,11 @@ ${data.contribute}
 
 ## Tests
 
+${data.test}
+
 ## Questions
+
+${data.questions}
 
 
 
