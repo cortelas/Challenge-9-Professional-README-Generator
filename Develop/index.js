@@ -21,6 +21,19 @@ const questions = [
         },
         {
             type: 'input',
+            name: 'description',
+            message: 'Please give a description of your project?',
+            validate: descriptionInput =>{
+                if (descriptionInput) {
+                    return true;
+                } else {
+                    console.log('please enter a description of your project');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
             name: 'installation',
             message: 'What are your instructions for installation?',
             validate: installationInput =>{
