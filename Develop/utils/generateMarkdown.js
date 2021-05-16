@@ -22,8 +22,10 @@ ${data.description}
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
+* [Credits](#credits)
+* [Contributing](#contributing)
+* [Credits](#credits)
 
 ## Installation
 
@@ -33,13 +35,19 @@ ${data.installation}
 
 ${data.usage}
 
-## Credits
-
-${data.credits}
-
 ## License
 
 ${data.licenses}
+
+## Contributing
+
+${data.contribute}
+
+## Tests
+
+## Questions
+
+
 
 `;
 }

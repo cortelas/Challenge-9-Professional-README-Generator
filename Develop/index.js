@@ -14,7 +14,7 @@ const questions = [
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('please enter the name of your project');
+                    console.log('Please enter the name of your project');
                     return false;
                 }
             }
@@ -27,7 +27,7 @@ const questions = [
                 if (descriptionInput) {
                     return true;
                 } else {
-                    console.log('please enter a description of your project');
+                    console.log('Please enter a description of your project');
                     return false;
                 }
             }
@@ -40,7 +40,7 @@ const questions = [
                 if (installationInput) {
                     return true;
                 } else {
-                    console.log('please enter your instructions for installation');
+                    console.log('Please enter your instructions for installation');
                     return false;
                 }
             }
@@ -53,20 +53,7 @@ const questions = [
                 if (usageInput) {
                     return true;
                 } else {
-                    console.log('please enter your instructions for usage');
-                    return false;
-                }
-            }
-        },
-        {
-            type: 'input',
-            name: 'credits',
-            message: 'What are your contributors?',
-            validate: creditsInput =>{
-                if (creditsInput) {
-                    return true;
-                } else {
-                    console.log('please enter your contributors');
+                    console.log('Please enter your instructions for usage');
                     return false;
                 }
             }
@@ -79,11 +66,50 @@ const questions = [
                 if (licenseInput) {
                     return true;
                 } else {
-                    console.log('please enter your licenses');
+                    console.log('Please enter your licenses');
                     return false;
                 }
             }
-        }       
+        },
+        {
+            type: 'input',
+            name: 'contribute',
+            message: 'How can someone contribute to your project?',
+            validate: contributeInput =>{
+                if (contributeInput) {
+                    return true;
+                } else {
+                    console.log('Please enter how to contribute to your project');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'test',
+            message: 'Please provide example tests',
+            validate: testInput =>{
+                if (testInput) {
+                    return true;
+                } else {
+                    console.log('Please provide example tests');
+                    return false;
+                }
+            }
+        },  
+        {
+            type: 'input',
+            name: 'questions',
+            message: 'How can someone ask you questions?',
+            validate: contributeInput =>{
+                if (contributeInput) {
+                    return true;
+                } else {
+                    console.log('How can someone ask you questions?');
+                    return false;
+                }
+            }
+        },       
 ];
 
 
