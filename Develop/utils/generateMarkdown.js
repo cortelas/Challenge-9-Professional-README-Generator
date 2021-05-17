@@ -22,10 +22,10 @@ ${data.description}
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+* [License](#license)
 
 ## Installation
 
@@ -35,9 +35,6 @@ ${data.installation}
 
 ${data.usage}
 
-## License
-
-${data.licenses}
 
 ## Contributing
 
@@ -49,8 +46,14 @@ ${data.test}
 
 ## Questions
 
+* [${data.username}'s GitHub](http://github.com/${data.username})
+* ${data.username}'s Email: ${data.email}
+
 ${data.questions}
 
+## License
+
+${data.license}
 
 
 `;

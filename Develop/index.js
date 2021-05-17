@@ -14,7 +14,7 @@ const questions = [
                 if (nameInput) {
                     return true;
                 } else {
-                    console.log('Please enter the name of your project');
+                    console.log('Please enter the name of your project.');
                     return false;
                 }
             }
@@ -27,7 +27,7 @@ const questions = [
                 if (descriptionInput) {
                     return true;
                 } else {
-                    console.log('Please enter a description of your project');
+                    console.log('Please enter a description of your project.');
                     return false;
                 }
             }
@@ -40,7 +40,7 @@ const questions = [
                 if (installationInput) {
                     return true;
                 } else {
-                    console.log('Please enter your instructions for installation');
+                    console.log('Please enter your instructions for installation.');
                     return false;
                 }
             }
@@ -53,20 +53,7 @@ const questions = [
                 if (usageInput) {
                     return true;
                 } else {
-                    console.log('Please enter your instructions for usage');
-                    return false;
-                }
-            }
-        },
-        {
-            type: 'input',
-            name: 'licenses',
-            message: 'What are your licenses?',
-            validate: licenseInput =>{
-                if (licenseInput) {
-                    return true;
-                } else {
-                    console.log('Please enter your licenses');
+                    console.log('Please enter your instructions for usage.');
                     return false;
                 }
             }
@@ -79,7 +66,7 @@ const questions = [
                 if (contributeInput) {
                     return true;
                 } else {
-                    console.log('Please enter how to contribute to your project');
+                    console.log('Please enter how to contribute to your project.');
                     return false;
                 }
             }
@@ -87,12 +74,12 @@ const questions = [
         {
             type: 'input',
             name: 'test',
-            message: 'Please provide example tests',
+            message: 'Please provide example tests.',
             validate: testInput =>{
                 if (testInput) {
                     return true;
                 } else {
-                    console.log('Please provide example tests');
+                    console.log('Please provide example tests.');
                     return false;
                 }
             }
@@ -109,7 +96,47 @@ const questions = [
                     return false;
                 }
             }
-        },       
+        },
+        {
+            type: 'list',
+            name: 'license',
+            message: 'Please choose a license.',
+            choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+            validate: licenseInput =>{
+                if (licenseInput) {
+                    return true;
+                } else {
+                    console.log('Please choose a license.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'username',
+            message: 'Please enter your GitHub username.',
+            validate: usernameInput =>{
+                if (usernameInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your GitHub username.');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Please enter your email.',
+            validate: emailInput =>{
+                if (emailInput) {
+                    return true;
+                } else {
+                    console.log('Please enter your email');
+                    return false;
+                }
+            }
+        },   
 ];
 
 
