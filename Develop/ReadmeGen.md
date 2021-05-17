@@ -1,44 +1,43 @@
-# 1
+# ReadmeGen
 
 ## Description
 
-2
+generate readmes
 
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+* [License](#license)
 
 ## Installation
 
-3
+input node index.js
 
 ## Usage 
 
-4
-
-## License
-
-5
+anyone can use!
 
 ## Contributing
 
-6
+plaintext link. or anything else!
 
 ## Tests
 
-7
+none
 
 ## Questions
 
 * [cortelas's GitHub](http://github.com/cortelas)
 * cortelas's Email: cortelas1@yahoo.com
 
-8
+ask away!
 
+## License
+
+MIT License
 
 

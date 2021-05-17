@@ -35,7 +35,6 @@ ${data.installation}
 
 ${data.usage}
 
-
 ## Contributing
 
 ${data.contribute}
